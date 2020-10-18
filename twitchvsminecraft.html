@@ -44,6 +44,7 @@
         backdrop-filter: blur(8px);
         text-align: center;
     }
+
     .box-small {
         background-color: rgba(0, 0, 0, 0.25);
         border-radius: 2px;
@@ -52,7 +53,8 @@
         text-align: center;
     }
 
-    .center {
+    .center,
+    h1 {
         margin: auto;
         width: 50%;
         border-radius: 5px;
@@ -62,6 +64,7 @@
     .fixed {
         position: fixed;
     }
+
     .no-decoration {
         text-decoration: none;
     }
@@ -76,10 +79,7 @@
         display: inline;
     }
 
-    .button,
-    .button2,
-    .button3,
-    .button4 {
+    .button {
         color: white;
         padding: 16px 32px;
         text-align: center;
@@ -91,44 +91,46 @@
         transition-duration: 0.4s;
     }
 
-    .button {
+    #btn1 {
         background-color: #63b521;
     }
 
-    .button2 {
+    #btn2 {
         background-color: #ff5349;
     }
 
-    .button3 {
+    #btn3 {
         background-color: #9146FF;
     }
 
-    .button4 {
+    #btn4 {
         background-color: #7289DA;
     }
 
-    .button:hover {
+    #btn1:hover {
         background-color: #4f911a;
         color: white;
     }
 
-    .button2:hover {
+    #btn2:hover {
         background-color: #e8332e;
         color: white;
     }
 
-    .button3:hover {
+    #btn3:hover {
         background-color: #6441a5;
         color: white;
     }
 
-    .button4:hover {
+    #btn4:hover {
         background-color: #4E5D94;
         color: white;
     }
 
-    .buttoncontainer {
+
+    .button-container {
         text-align: center;
+        width: 100%;
     }
 
 
@@ -186,30 +188,33 @@
             <div class="fixed w3-display-topleft w3-padding-large w3-xlarge">
                 Twitch Vs Minecraft
                 <ul class="w3-small box-small">
-                    <li><i class="fas fa-book"></i><a href="https://www.curseforge.com/minecraft/mc-mods/twitch-vs-minecraft/pages/faq" class="no-decoration"> Click here to read the FAQ</a></li>
+                    <li><i class="fas fa-book"></i><a
+                            href="https://www.curseforge.com/minecraft/mc-mods/twitch-vs-minecraft/pages/faq"
+                            class="no-decoration"> Click here to read the FAQ</a></li>
                 </ul>
             </div>
 
             <center><img src="https://i.imgur.com/wkw7bEc.png" width=75% height=75%></img></center>
             <p class="box-large w3-large"><i><b>Be at your viewers' mercy!</i></b><br>Let your Twitch Chat or
-                your Discord server control what happens in your Minecraft world.</p>
-            <div class="buttoncontainer">
-                <a href="https://bit.ly/TwitchVsMinecraft" class="button"><i class="fa fa-download"></i> Get the Mod</a>
-                <a href="http://bit.ly/2UfBCiL" class="button2"><i class="fas fa-terminal"></i> Command List</a>
-                <a href="https://twitchapps.com/tmi/" class="button3"><i class="fab fa-twitch"></i> Login with
+                your Discord server control what happens in your Minecraft world. Will they play with you, or against
+                you?</p>
+            <div class="button-container">
+                <a href="https://bit.ly/TwitchVsMinecraft" class="button" id="btn1"><i class="fa fa-download"></i> Get
+                    the Mod</a>
+                <a href="http://bit.ly/2UfBCiL" class="button" id="btn2"><i class="fas fa-terminal"></i> Command
+                    List</a>
+                <a href="https://twitchapps.com/tmi/" class="button" id="btn3"><i class="fab fa-twitch"></i> Login with
                     Twitch</a>
                 <a href="https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token"
-                    class="button4"><i class="fab fa-discord"></i> Get your Discord Token</a>
+                    class="button" id="btn4"><i class="fab fa-discord"></i> Get your Discord Token</a>
             </div>
-            <br>
-            <center>
-                <h1>See it in action!</h1>
-                <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/videoseries?list=PL5Suprf-CqIDimMRVuj593iTASFEwF9HX"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </center>
+
+            <h1>See it in action!</h1>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PL5Suprf-CqIDimMRVuj593iTASFEwF9HX" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
         </div>
         <div class="fixed w3-display-bottomleft w3-padding-large">
             Created by <a href="https://icrazyblaze.github.io/">iCrazyBlaze</a>
