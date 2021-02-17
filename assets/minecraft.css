@@ -27,6 +27,9 @@ html {
 a:hover {
 	color: #ffa600;
 }
+.greenlink:hover {
+	color: #6bac57;
+}
 
 .box-large {
 	background-color: rgba(0, 0, 0, 0.5);
