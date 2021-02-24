@@ -6,8 +6,6 @@ h1 {
 body,
 html {
 	height: 100%;
-	min-height: 100%;
-	min-width: 100%;
 	text-shadow: 0px 0px 6px black;
 	color: white;
 	background-color: rgba(150, 150, 150, 1);
@@ -15,9 +13,8 @@ html {
 }
 
 .bgimg {
-	background-image: url('https://icrazyblaze.github.io/assets/bg2.png'), linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5));
+	background-image: url('bg2.png'), linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5));
 	background-blend-mode: overlay;
-	min-height: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
