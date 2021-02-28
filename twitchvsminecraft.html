@@ -17,6 +17,17 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 <link rel="stylesheet" href="assets/minecraft.css">
+
+<script>
+    const iframes = document.querySelectorAll('iframe');
+
+    function toggleTheme() {
+        for (i = 0; i < iframes.length; i++) {
+            iframes[i].classList.toggle('is-dark');
+        }
+    }
+</script>
+
 <style>
     .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out
@@ -74,7 +85,7 @@
                 <ul class="w3-small box-small">
                     <li><i class="fas fa-book"></i><a
                             href="https://www.curseforge.com/minecraft/mc-mods/twitch-vs-minecraft/pages/faq"
-                            class="no-decoration"> Click here to read the FAQ</a></li>
+                            class="greenlink no-decoration"> Click here to read the FAQ</a></li>
                 </ul>
             </div>
 
@@ -82,13 +93,11 @@
             <p class="box-large w3-large"><i><b>Be at your viewers' mercy!</i></b><br>Let your Twitch Chat or
                 your Discord server control what happens in your Minecraft world. Will they play with you, or against
                 you?<br>Twitch Vs Minecraft (or "Streamer Vs Chat") is a Minecraft mod for Forge inspired by Kaze
-                Emanuar and CrowdControl that lets Twitch viewers interact with the game to provide a fun challenge for
+                Emanuar and CrowdControl that lets Twitch viewers and Discord members interact with the game to provide a fun challenge for
                 streamers.
-
                 <br><br>
-                <a href="https://modrinth.com/mod/twitchvsminecraft" class="greenlink no-decoration">
-                    <img src="https://modrinth.com/_nuxt/e3136b71c5c27da6e8cef40c11b5a53f.svg" width=6% height=6%>
-                    <b> NEW:</b> Get it on Modrinth!
+                <iframe src="https://www.cfwidget.com/minecraft/mc-mods/twitch-vs-minecraft" width="65%" style="border: none;"></iframe>
+
                 </a>
 
             </p>
