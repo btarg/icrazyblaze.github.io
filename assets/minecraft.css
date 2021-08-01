@@ -14,7 +14,7 @@ object {
 }
 
 .bgimg {
-    background-image: url('bg2.png'), linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5));
+    background-image: url('https://icrazyblaze.github.io/assets/bg2.png'), linear-gradient(rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.5));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center center;
